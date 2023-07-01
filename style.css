@@ -1,0 +1,30 @@
+ul{
+	list-style-type:circle;
+}
+ul{
+	list-style-type:none;
+}
+ol{
+	list-style-type:upper-roman;
+}
+ol{
+	list-style-type:lower-alpha;
+}
+
+ul{
+	list-style-image:url("Images/flower.jpg")
+}
+
+ul{
+	list-style-position:inside;
+}
+
+
+
+
+ol{
+	list-style:circle outside url("Images/flower.jpg")	
+}
+::selection{
+	color:red;
+}
